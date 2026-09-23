@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  }
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #b8860b 0%, #d4af37 40%, #996515 80%, #7d4f0d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-bright {
+  background: linear-gradient(135deg, #d4af37 0%, #c59b27 50%, #996515 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #F3D068 0%, #D4AF37 45%, #B88E28 85%, #906B15 100%);
+}
+
+.bg-gold-gradient-hover:hover {
+  background: linear-gradient(135deg, #FAE088 0%, #DEBA47 45%, #C79C2A 85%, #9F7618 100%);
+}
+
+.gold-glow {
+  box-shadow: 0 10px 30px -5px rgba(212, 175, 55, 0.3);
+}
+
+.gold-glow-subtle {
+  box-shadow: 0 4px 20px -4px rgba(212, 175, 55, 0.2);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.9);
+  box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.08), 0 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+}
+
+.glass-card-light {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.04);
+}
+
+.glass-card-light-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card-light-hover:hover {
+  background: rgba(255, 255, 255, 1);
+  border-color: rgba(212, 175, 55, 0.45);
+  box-shadow: 0 15px 30px -5px rgba(212, 175, 55, 0.15), 0 8px 20px -6px rgba(15, 23, 42, 0.06);
+  transform: translateY(-2px);
+}
+
+

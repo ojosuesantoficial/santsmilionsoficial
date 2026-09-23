@@ -1,0 +1,6 @@
+{
+  "name": "Sants Millions | Gestão de Tráfego Pago & Aquisição",
+  "description": "Agência especializada em gestão de tráfego pago e aquisição de clientes para clínicas, consultórios e empresas locais.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
